@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         scan=(Button)findViewById(R.id.btn_Scan);
-
+        //Main Activity
         final Activity activity=this;
 
         scan.setOnClickListener(new View.OnClickListener() {
